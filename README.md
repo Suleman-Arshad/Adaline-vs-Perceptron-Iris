@@ -22,8 +22,8 @@ Unlike the Perceptron, the Delta Rule (Adaline) seeks to minimize the **Mean Squ
 ## 📊 Key Results & Observations
 The following visualization summarizes the training dynamics captured during execution:
 
-![Learning Curves](<img width="2261" height="1457" alt="learning_curves" src="https://github.com/user-attachments/assets/db658081-b44d-4640-91ed-c30168070906" />
-)
+<img width="2261" height="1457" alt="learning_curves" src="https://github.com/user-attachments/assets/db658081-b44d-4640-91ed-c30168070906" />
+
 
 * **Convergence:** The Perceptron reaches zero misclassifications in just a few epochs, while the Delta Rule shows a smooth, exponential decay of error over time.
 * **Learning Rate Sensitivity:** A learning rate of **$\eta = 0.1$** was found to be optimal, achieving the lowest MSE the fastest. A rate of **$0.001$** was too slow to converge within 100 epochs.
